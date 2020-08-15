@@ -1,0 +1,61 @@
+.expander {
+	cursor: pointer;
+}
+
+.expander:hover {
+    text-decoration: none;
+}
+
+.shifted {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+#update-link {
+	font-weight: bold;
+}
+
+#update-link.update-available {
+	color: #2980b9;
+}
+
+#update-link.update-noupdate {
+	color: #2ecc71;
+}
+
+#update-link.update-error {
+	color: #c0392b;
+}
+
+.glyphicon-expand {
+	color: #2c3e50;
+}
+
+.glyphicon-collapse-down {
+	color: #2c3e50;
+}
+
+.glyphicon-refresh-animate {
+	-animation: spin-default .7s infinite linear;
+	-webkit-animation: spin-webkit .7s infinite linear;
+}
+
+@keyframes spin-default {
+	from {
+		transform: scale(1) rotate(0deg);
+	}
+	
+	to {
+		transform: scale(1) rotate(360deg);
+	}
+}
+
+@-webkit-keyframes spin-webkit {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}

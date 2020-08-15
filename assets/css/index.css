@@ -1,0 +1,17 @@
+#project-container {
+	margin-top: 1em;
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+
+#project-container::-webkit-scrollbar { 
+    display: none; 
+}
+
+th {
+	width: 50%;
+}
+
+.a-description {
+	cursor: pointer;
+}
